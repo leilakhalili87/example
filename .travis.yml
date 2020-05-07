@@ -6,6 +6,12 @@ cache:
     - $HOME/.cache/pip
     - $HOME/.ccache  # https://github.com/travis-ci/travis-ci/issues/5853
 
+
+env:
+  global:
+    # Doctr deploy key for leilakhalili87/example
+    - secure: "rEeDt4KD/SntJhtIwpZnk3a4pjrfLF/5BgmDB2NzbVngDJ3UnuNJ6Lym5FH4sehQmb7YFNGRPsdZyJcWhgfkvgIJ9lAoINPw7UHYbOpRTPvDBhPbGVMOM7utZ38OYHtFHAtvZszx4HmEwgjj3zImKz0vLvBLoKoxyiXLwW0hV7Puyy0S88IdtUkG24rcnVtZAdEOnnM/pow8MaQAc23HbxafGn0HZlrBmcX7kriNL+mQQT6F/iroOK4fg9Yg18gdPwndninTjw0LrnZ2wWyMqkEAa2YcvFezqfjubB8adCzsMyz7LcKP4wm6VgClXtPf16QoyjB/GxySnjl6eY6/sJkP2MY2tev3xHiNx+hkuVBDgqHwhSwsL2yIkHs1jvPAkq0lzANocFhwYcgg+iiEEmVUdhTpxqhKo8j6mZUTTttvmlmBDkBdJ17Cdan7s5pAGhUfmaI78rjzcJeQVGkb9r/phEYL5GHcopy0vXysglBqYP/yJXaCGxYVSoXGFqG71c8hDCgxz7wSEU0/FE3jV85n+sXu7eRZBmbyWxI2GAaVUoI1dgIvZmb/WtUeDdnXxjnVbFiZr/v+Vht/0Ehw6KQVrHwDmsle2duEtRvGZ+ItXMMI0MMcxKg6UisYbQRv4vx85jLRLSfbYTfP2xBeGr+Drg0WUIreqTo/FRpKmJY="
+
 install:
   # Install this package and the packages listed in requirements.txt.
   - pip install .
@@ -17,4 +23,7 @@ script:
   - coverage report -m  # Generate test coverage report.
   - codecov  # Upload the report to codecov.
   - flake8  # Enforce code style ('relaxed' line length limit is set in .flake8 config file).
+  - set -e
   - make -C docs html  # Build the documentation.
+  - pip install doctr
+  - doctr deploy --key-path github_deploy_key_leilakhalili87_example.enc --built-docs docs/build/html/ --deploy-repo leilakhalili87.github.io example

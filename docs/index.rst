@@ -14,7 +14,7 @@ example Documentation
    usage
    release-history
    min_versions
-   tut
+   Tutorial
 
    .. only:: html
 

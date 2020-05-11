@@ -7,11 +7,16 @@ example Documentation
 =====================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
+   :glob:
 
    installation
    usage
    release-history
    min_versions
-   Tutorials/index.rst
+   tut
+
+   .. only:: html
+
+    There is also :ref:`/orphan.ipynb`, just for the sake of it.
 

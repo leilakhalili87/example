@@ -14,8 +14,9 @@ example Documentation
    release-history
    min_versions
 
-"nbsphinx-toctree": {
+{"nbsphinx-toctree": {
     "maxdepth": 2
 
     tut    
+    }
 }

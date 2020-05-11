@@ -13,10 +13,5 @@ example Documentation
    usage
    release-history
    min_versions
+   Tutorials/index.rst
 
-{"nbsphinx-toctree": {
-    "maxdepth": 2
-
-    tut    
-    }
-}

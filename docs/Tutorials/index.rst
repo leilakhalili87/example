@@ -1,5 +1,10 @@
+Tutorials
+========
+
+The following tutorials are currently available:
+
 .. toctree::
     :maxdepth: 2
 
 
-    Tutorial
+    Tutorial.ipynb

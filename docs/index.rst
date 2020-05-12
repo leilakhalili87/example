@@ -14,9 +14,4 @@ example Documentation
    usage
    release-history
    min_versions
-   Tutorial
-
-   .. only:: html
-
-    There is also :ref:`/orphan.ipynb`, just for the sake of it.
-
+   Tutorial/index

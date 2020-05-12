@@ -9,7 +9,7 @@ example Documentation
 .. toctree::
    :maxdepth: 5
 
-   installation
+   #installation
    usage
    release-history
    min_versions

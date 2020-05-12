@@ -2,4 +2,4 @@
     :maxdepth: 2
 
 
-    Tutorials
+    Tutorial

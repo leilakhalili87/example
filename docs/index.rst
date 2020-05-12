@@ -14,4 +14,4 @@ example Documentation
    usage
    release-history
    min_versions
-   Tutorial/index
+   Tutorials

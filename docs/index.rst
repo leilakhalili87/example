@@ -7,8 +7,7 @@ example Documentation
 =====================
 
 .. toctree::
-   :maxdepth: 4
-   :glob:
+   :maxdepth: 5
 
    installation
    usage

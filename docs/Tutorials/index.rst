@@ -6,4 +6,3 @@ Tutorials
    :maxdepth: 2
 
    tot
-   -----------------

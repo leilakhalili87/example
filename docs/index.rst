@@ -9,9 +9,8 @@ example Documentation
 .. toctree::
    :maxdepth: 5
 
-   #installation
-   Tutorials
+   installation
    usage
    release-history
    min_versions
-   tot
+   Tutorials

@@ -2,10 +2,7 @@
 Tutorials
 =====
 
-Start by importing example.
+.. toctree::
+   :maxdepth: 2
 
-.. code-block:: python
-
-    import example
-
-.. autofunction:: example.refraction.snell
+   tot

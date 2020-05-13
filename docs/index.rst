@@ -18,4 +18,5 @@ example Documentation
 Tutorials
 -----------
 .. toctree::
-   tot
+    :maxdepth: 2
+    tot

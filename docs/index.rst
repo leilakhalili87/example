@@ -10,6 +10,7 @@ example Documentation
    :maxdepth: 5
 
    #installation
+   Tutorials
    usage
    release-history
    min_versions

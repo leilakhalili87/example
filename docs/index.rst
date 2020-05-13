@@ -7,10 +7,15 @@ example Documentation
 =====================
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 3
 
    installation
    usage
    release-history
    min_versions
-   Tutorials/index
+
+
+Tutorials
+-----------
+.. toctree::
+   tot

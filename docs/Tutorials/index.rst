@@ -5,4 +5,4 @@ Tutorials
 .. toctree::
    :maxdepth: 2
 
-   first turotail tot
+   First doc <tot>

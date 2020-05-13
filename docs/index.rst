@@ -13,10 +13,4 @@ example Documentation
    usage
    release-history
    min_versions
-
-
-Tutorials
------------
-.. toctree::
-    :maxdepth: 2
-    tot
+   Tutorials/index
